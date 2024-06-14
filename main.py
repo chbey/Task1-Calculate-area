@@ -10,11 +10,11 @@ if __name__ == '__main__':
     try:
         # Taking user input for width and length
         width = float(input("Enter the width: "))
-        length = float(input("Enter the height: "))
+        length = float(input("Enter the length: "))
 
         # Check for negative values
         if width < 0 or length < 0:
-            print("Please enter positive numbers for width and length.")
+            print("Please enter positive numbers for width or length.")
         else:
             # Calling the function to calculate area
             area = calculate_area(width, length)
